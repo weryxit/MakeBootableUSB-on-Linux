@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=MBU-Linux
+GenericName=USB Boot Creator
+Comment=Make Bootable USB on Linux
+Exec=sudo mbulinux
+Icon=mbulinux
+Terminal=true
+Categories=System;Utility;
+Keywords=usb;boot;iso;windows;linux;
+StartupNotify=true
+X-GNOME-Autostart-enabled=false
