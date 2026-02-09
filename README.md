@@ -32,28 +32,30 @@ This repository may include:
 ## Installation
 
 1. Clone the repository:
-
+```bash
    git clone https://github.com/weryxit/MakeBootableUSB-on-Linux.git  
    cd MakeBootableUSB-on-Linux
-
+```
 2. Install dependencies (if required):
-
+```bash
    python3 -m pip install --user -r requirements.txt
-
+```
 3. Set execution permissions for scripts:
-
+```bash
    chmod +x *.sh
-
+```
 4. Run the script (requires root privileges):
-
+```bash
    sudo ./install.sh
-
+```
 5. Run the application (if you cant from menu):
-
+```bash
    sudo ./run.sh
+```
    or
+```bash
    ./mbulinux.desktop
-
+```
 ## Usage
 
 1. Plug in your USB flash drive.
@@ -82,3 +84,4 @@ Feel free to open issues for bug reports or feature requests, or submit pull req
 ## License
 
 This project is licensed under the MIT License (or specify another license if applicable).
+
